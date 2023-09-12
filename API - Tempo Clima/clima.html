@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Previsão do Tempo</title>
+
+    <link rel="stylesheet" href="clima.css">
+</head>
+
+<body>
+    <h1>Previsão do Tempo</h1>
+
+    <div class="corpo">
+        <h2>Clima</h2>
+        <input type="text" id="cidade" placeholder="Qual cidade você procura?"><br><br>
+        <button id="enviar" onclick="Localizacao()">Enviar</button><br><br>
+        <div id="nome"></div>
+        <div id="temperatura"></div>
+        <div id="vento"></div>
+        <div id="umidade"></div>
+        <button onclick="Mapa()">Mapa</button>
+        <script src="programacao_clima.js"></script>
+    </div>
+</body>
+
+</html>
